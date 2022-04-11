@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-	 <link rel="stylesheet" href="style.css">
-	 <link
-   			 rel="stylesheet"
-    			type="text/css"
-    			href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-  		/>
-
-	<title>Layout</title>
-</head>
-<body>
-	
-	<div class="wrapper">
-		<div class="container">
-			<div class="header">
-					<div class="header-left">
-						<img class="logo" src="./img/logo.png" >
-					</div>
-					<div class="header-center">
-							<ul class="main-menu">
-								<li>About</li>
-								<li>Features</li>
-								<li>Pricing</li>
-								<li>Testimonials</li>
-								<li>Help</li>
-							</ul>
-					</div>
-					<div class="header-right">
-						<a class="header-btnin" href=#>Sign In</a>
-						<a class="header-btnup" href=#>Sign Up</a>
-					</div>
-
-					
-
-			</div>
+<?php get_header(); ?>
 			<div class="wrapper-content">
 				
 					<div class="content-text">
@@ -287,23 +250,4 @@
 
 				</div>
 		</div>
-		<footer>
-			
-		</footer>
-	</div>
- <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script src="./scripts/app.js"></script>
-    <script src="https://use.fontawesome.com/d31a76763a.js"></script>
-</body>
-</html>				
+		<?php get_footer(); ?>			

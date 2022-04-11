@@ -1,6 +1,6 @@
-$('.banner').slick({
+$('.benphai').slick({
   infinite: true,
-  slidesToShow: 1,
+  slidesToShow: 3,
   slidesToScroll: 1,
   dots:true,
   prevArrow:'<button type="button" class="slick-prev"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>',
@@ -9,7 +9,7 @@ $('.banner').slick({
     {
       breakpoint: 767,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
         arrows: false,
@@ -26,32 +26,6 @@ $('.banner').slick({
     },
   ],
 });
-
-jQuery(".has-sub span").click(function(){
-    jQuery(".submenu ").toggleClass("an-menu");
-    jQuery(".has-sub").toggleClass("open");
-})
-
-/* tab contet*/
-$("#tabs>ul>li").on('click',function(){
-    $(this).addClass("active");
-    $(this).siblings().removeClass("active");
-    if($("#tabs>ul>li:nth-child(1)").hasClass("active")){
-            $(".tab-content>#tabs-1").css("display","block");
-             $(".tab-content>#tabs-1").siblings().css("display","none");
-    }
-     if($("#tabs>ul>li:nth-child(2)").hasClass("active")){
-            $(".tab-content>#tabs-2").css("display","block");
-             $(".tab-content>#tabs-2").siblings().css("display","none");
-    }
-     if($("#tabs>ul>li:nth-child(3)").hasClass("active")){
-            $(".tab-content>#tabs-3").css("display","block");
-             $(".tab-content>#tabs-3").siblings().css("display","none");
-    }
-})
-/*end tab*/
-
-
 
 
 const listimg=document.querySelectorAll('.wrap-listslider .img');

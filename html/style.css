@@ -173,3 +173,7 @@ body{
 .box-product .img-product{
     text-align: center;
 }
+#tabs-2,
+#tabs-3{
+    display: none;
+}
